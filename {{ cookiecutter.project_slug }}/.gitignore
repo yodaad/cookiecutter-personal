@@ -1,0 +1,28 @@
+# Jupyter
+.ipynb_checkpoints/
+*.nbconvert.ipynb
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+
+# Environments
+.env
+.venv/
+venv/
+ENV/
+
+# Data (keep empty structure, not the data)
+data/raw/*
+!data/raw/.gitkeep
+data/processed/*
+!data/processed/.gitkeep
+
+# Models / Outputs
+models/*
+!models/.gitkeep
+outputs/*
+!outputs/.gitkeep
+logs/

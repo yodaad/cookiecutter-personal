@@ -1,0 +1,8 @@
+name: Cookiecutter-Personal
+channels:
+  - anaconda
+  - conda-forge
+  - defaults
+dependencies:
+  - cookiecutter
+prefix: /home/yodaad/anaconda3/envs/Cookiecutter-Personal
